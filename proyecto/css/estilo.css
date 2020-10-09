@@ -1,0 +1,223 @@
+/*NavBar*/
+.navbar {
+  background-image: url(../media/fondo.jpg);
+  height: 60%;
+  margin: 0px 0px 40px 0px;
+  display: flex;
+  justify-content: center; }
+  .navbar div ul li a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 200%;
+    color: #734327;
+    margin: 15px; }
+  .navbar .navbar .nav-link:hover {
+    color: #1e272e; }
+  .navbar .navbar #logo {
+    padding: 2%;
+    margin: 15px;
+    position: relative;
+    bottom: -20px; }
+
+.ContIndex {
+  padding: 40px 20px;
+  background-image: url(../media/paper_04.jpg); }
+  .ContIndex .ContIndex-Text {
+    background-image: url(../media/paper_03.jpg);
+    border-radius: 5%;
+    padding: 5%;
+    margin: 10% 10%;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 120%;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .ContIndex .ContIndex-Collage {
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .ContIndex .ContIndex-Coll-Pic {
+    height: 300px;
+    background-image: url(../media/paper_01.jpg);
+    padding: 10px;
+    margin: 37px;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; }
+  .ContIndex .ContIndex-Coll-Pic:hover {
+    opacity: .6; }
+
+/*sobremi*/
+#SMCont1 {
+  background-image: url(../media/paper_03.jpg);
+  margin: 40px 0px 0px 0px; }
+
+#SMCont1 h2 {
+  font-family: 'Mali', cursive;
+  font-weight: bold;
+  padding: 20px;
+  color: #1e272e; }
+
+#SMCont1 p {
+  background-image: url(../media/paper_01.jpg);
+  border-radius: 5%;
+  font-family: 'Mali', cursive;
+  color: #1e272e;
+  font-size: 120%; }
+
+#SMCont1 img {
+  padding: 10px 10px;
+  border-radius: 10%; }
+
+#SMCont3 img {
+  padding: 20px 20px;
+  border-radius: 10%; }
+
+#SMCont4 .firma {
+  height: 150px; }
+
+/*Encuaderna2*/
+.ContEncuad-Collage {
+  margin: 40px 0px 0px 0px;
+  padding: 40px 0px;
+  background-image: url(../media/paper_02.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.ContEncuad-Collage .ContEncuad-Img {
+  height: 300px;
+  background-image: url(../media/paper_03.jpg);
+  padding: 10px;
+  margin: 32px;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+div .ContEncuad-Collage :hover img {
+  opacity: .6; }
+
+/*Imprimibles*/
+.ContImp-Collage {
+  margin: 40px 0px 0px 0px;
+  padding: 40px 0px;
+  background-image: url(../media/paper_03.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.ContImp-Collage .ContImp-Img {
+  height: 300px;
+  background-image: url(../media/paper_02.jpg);
+  padding: 10px;
+  margin: 32px;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+div .ContImp-Collage :hover img {
+  opacity: .6; }
+
+/*Contacto*/
+#Contacto {
+  background-image: url(../media/paper_01.jpg);
+  margin: 50px 0px 50px 0px; }
+  #Contacto #Contacto h1 {
+    font-family: 'Mali', cursive;
+    margin: 20px 20px; }
+  #Contacto #Contacto h2 {
+    font-family: 'Mali', cursive;
+    margin: 20px 20px; }
+  #Contacto .Contact-Icon {
+    height: 130px;
+    padding: 30px 30px; }
+
+/*footer*/
+footer {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center; }
+  footer .footer1 {
+    font-family: 'Mali', cursive;
+    text-align: center; }
+  footer .footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999; }
+    footer .footer #button {
+      width: 10px;
+      height: 10px;
+      border: #734327 7px solid;
+      border-radius: 10px;
+      margin: 0 auto;
+      position: relative;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+    footer .footer #button:hover {
+      width: 20px;
+      height: 20px;
+      border: #734327 7px solid;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+      position: relative; }
+
+.footer:hover {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 10em; }
+
+.footer #container {
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url(../media/fondo.jpg); }
+  .footer #container #cont {
+    position: relative;
+    top: -45px;
+    right: 190px;
+    width: 150px;
+    height: auto;
+    margin: 0 auto; }
+
+.footer_center {
+  width: 500px;
+  float: left;
+  text-align: center; }
+
+footer .footer h3 {
+  color: #d63031;
+  font-family: 'Mali', cursive;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 70px;
+  margin-left: 40px; }
+
+footer .footer h3 .Footer-Paper-Text2 {
+  text-decoration: none;
+  color: #F20505; }
